@@ -1,0 +1,41 @@
+# Core LangChain packages
+langchain==0.1.4
+langchain-community==0.0.15
+langchain-core==0.1.16
+langchain-google-genai==0.0.6
+langchain-openai==0.0.2.post1
+
+# LLM Providers
+openai==1.8.0
+google-generativeai==0.3.2
+google-ai-generativelanguage==0.4.0
+
+# HuggingFace
+huggingface-hub==0.20.3
+
+# Vector Store
+chromadb==0.4.22
+# chroma-hnswlib - will be installed as dependency of chromadb
+
+# Document Loaders
+pypdf==4.0.1
+docx2txt==0.8
+python-dotenv==1.0.1
+
+# Streamlit
+streamlit==1.28.0
+
+# Cohere (optional, for reranker)
+cohere==4.47
+
+# Configuration Management
+pydantic==2.6.1
+pydantic-settings==2.1.0
+pydantic_core==2.16.2
+
+# Required dependencies
+tiktoken==0.5.2
+requests==2.31.0
+numpy==1.26.4
+pandas==2.2.0
+tenacity==8.2.3

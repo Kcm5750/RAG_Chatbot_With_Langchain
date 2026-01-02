@@ -1,0 +1,2 @@
+# Keep this directory for temporary file uploads
+# The .gitignore excludes all files in this directory except this .gitkeep
